@@ -9,12 +9,7 @@ body {
     width: 100%;
 }
 
-.logo{
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .contenedor{
     background: #EE2677;
