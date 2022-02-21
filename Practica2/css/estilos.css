@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0;
+
+}
+
+body {
+    
+    width: 100%;
+}
+
+.logo{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    background: #EE2677;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+header {
+    
+    width: 100%;
+}
+
+.titu1{
+    font-family: Brush Script MT;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 2px 2px 5px #B388EB;
+}
+
+.parr1{
+    font-family: Brush Script MT;
+    text-align: center;
+    font-size: 40px;
+}
+nav{
+    width: 100%;
+}
+nav a{
+    background: #F7AEF8;
+    text-decoration: none;
+    position: relative;
+    left: 5px;
+    color: black;
+    border: 4px;
+    padding: 9px;
+    display: inline-block;
+    width: 144px;
+    
+    font-family:  Brush Script MT;
+    font-size: 25px;
+    text-align: center;
+
+}
+nav a:hover{
+    background: #E87ea1;
+
+}
+
+
+
+main{
+    background:#FDC5F5;
+    width: 75%;
+    float:right;
+    font-family: Candy Cake;
+}
+
+
+.im1{
+    width: 500px;
+    padding-left: 130px;
+}
+
+.im2{
+    width: 300px;
+    padding: 30px;
+}
+
+aside{
+    background: #F7AEF8;
+    width: 25%;
+    height: 1116px;
+    float: left;
+    line-height: 25px;
+    font-family: Candy Cake;
+    
+}
+
+footer{
+    background: EE2677;
+    width: 100%;
+    float: left;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: Candy Cake;
+    padding: 20px;
+}
+
+.titu2{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.parr2{
+    padding: 10px;
+}
+
+.li1 ul li{
+    list-style: square;
+    padding: 5px;
+    list-style-position: inside;
+}
+
+.h3{
+    text-align: center;
+}
+
+.im4{
+    padding-left: 50px;
+    padding-top: 20px;
+}
