@@ -74,19 +74,21 @@ main{
 
 
 .im1{
-    width: 500px;
-    padding-left: 130px;
+    width: 70%;
+    position: relative;
+    left: 20px;
 }
 
 .im2{
-    width: 300px;
-    padding: 30px;
+    width: 40%;
+    position: relative;
+    left: 20px;
 }
 
 aside{
-    background: #F7AEF8;
+    
     width: 25%;
-    height: 1116px;
+    height: 100%;
     float: left;
     line-height: 25px;
     font-family: Candy Cake;
@@ -124,6 +126,33 @@ footer{
 }
 
 .im4{
+    width: 60%;
     padding-left: 50px;
     padding-top: 20px;
+}
+
+@media screen and (max-width:700px) 
+{
+    body{
+        
+        font-size: 14px;
+        background: rgb(0, 0, 0);
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+}
+@media screen and (max-width:350px) {
+    body{
+    font-size: 12px;
+    background: #eeebd0;
+    }
+    
+    aside{
+        display: none;
+    }
+    
 }
