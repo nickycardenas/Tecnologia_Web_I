@@ -48,6 +48,5 @@ var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Vie
 function fecha()
 {
     var f=new Date();
-   // document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
     document.getElementById('resu').value=(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
 }
